@@ -3,4 +3,22 @@
   <groupId>com.sys</groupId>
   <artifactId>shouty</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+  <maven.compiler.source>1.6</maven.compiler.source>
+  <maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
+  <dependencies>
+  	<dependency>
+  		<groupId>io.cucumber</groupId>
+  		<artifactId>cucumber-java</artifactId>
+  		<version>5.7.0</version>
+  		<scope>test</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>io.cucumber</groupId>
+  		<artifactId>cucumber-junit</artifactId>
+  		<version>5.7.0</version>
+  		<scope>test</scope>
+  	</dependency>
+  </dependencies>
 </project>
